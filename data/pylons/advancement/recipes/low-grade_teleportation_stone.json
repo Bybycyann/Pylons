@@ -1,0 +1,69 @@
+{
+  "parent": "pylons:recipes/root",
+  "criteria": {
+    "has_amethyst_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lapis_lazuli": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pylons:low-grade_teleportation_stone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_amethyst_shard",
+      "has_lapis_lazuli"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "title": [
+        {"translate": "space.-131","font":"default"},
+        {"text": "\ue102","font": "pylons:gui/advancement","shadow_color": [0,0,0,0]},
+        {"translate": "space.-101","font":"default"},
+
+        {"translate": "space.23","font":"default"},
+        {"text": "\u2041","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-42","font":"default"},
+
+        {"translate": "space.41","font":"default"},
+        {"text": "\u2021","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-60","font":"default"},
+
+        {"translate": "space.77","font":"default"},
+        {"text": "\u1021","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-96","font":"default"},
+
+        {"translate": "space.131","font":"default"},
+        {"translate": "item.pylons.low-grade_teleportation_stone","fallback": "低级传送石","color": "#9e87f1"}
+    ],
+    "description": {"translate": "advancement.pylons.guide.recipe.shapeless","fallback": "无序配方"},
+    "icon": {"id": "minecraft:paper","components": {"item_model": "pylons:items/low-grade_teleportation_stone"}}
+  },
+  "rewards": {
+    "recipes": [
+      "pylons:low-grade_teleportation_stone"
+    ]
+  }
+}

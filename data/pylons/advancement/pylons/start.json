@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "show_toast": false,
+        "background": "pylons:item/pylons/0",
+        "title": [{"translate": "advancements.pylons.start.title","fallback": "Pylons"}],
+        "description": {"translate": "advancements.pylons.start.description","fallback": "搭建自己的传送网络"},
+        "icon": {"id": "minecraft:paper","components": {"item_model": "pylons:vanilla/forest/item"}}
+    }
+}

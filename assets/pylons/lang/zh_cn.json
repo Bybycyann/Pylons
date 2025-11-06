@@ -1,0 +1,24 @@
+{
+    "peminder.pylons.pack_name": "传送晶塔",
+    "peminder.pylons.pack_description": "便捷地穿梭于各个地标",
+    "peminder.pylons.guide": "按%s打开成就界面获取帮助",
+
+    "gui.pylons.search": "搜索",
+    "advancement.pylons.guide.recipe.shapeless": "无序配方",
+    "advancement.pylons.guide.recipe.shaped": "有序配方",
+    "advancement.pylons.guide.root.title": "晶塔手册",
+    "advancement.pylons.guide.root.description": "百科全书！",
+    "advancements.pylons.start.title": "Pylons",
+    "advancements.pylons.start.description": "搭建自己的传送网络",
+    "advancements.pylons.anchor.title": "锚点！",
+    "advancements.pylons.anchor.description": "使用传送石对一个晶塔进行标记",
+    "advancements.pylons.crafting_pylon.title": "晶塔",
+    "advancements.pylons.crafting_pylon.description": "合成一个晶塔",
+    "item.pylons.pylon": "传送晶塔",
+    "item.pylons.pylon.usage": "放置晶塔以创建传送锚点",
+    "item.pylons.pylon.lore": "“散发着微弱的光芒...”",
+    "item.pylons.low-grade_teleportation_stone": "低级传送石",
+    "item.pylons.low-grade_teleportation_stone.usage1": "使用%s命名",
+    "item.pylons.low-grade_teleportation_stone.usage2": "用于标记晶塔",
+    "item.pylons.low-grade_teleportation_stone.lore": "“一块普通的石头.”"
+}

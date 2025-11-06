@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "pylons:font/gui/advancement/base.png",
+            "height": 64,
+            "ascent": 15,
+            "chars": ["\ue101\ue102"]
+        }
+    ]
+}

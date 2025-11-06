@@ -1,0 +1,22 @@
+{
+    "pack": {
+        "description": [
+            {
+                "translate": "",
+                "fallback": "使用晶塔进行远程传送！",
+                "color": "green"
+            },
+            "\n",
+            {
+                "translate": "",
+                "fallback": "前置：%s",
+                "color": "gray",
+                "with": [{"text":"NatureCraft","color":"green"}]
+            }
+        ],
+        "pack_format": 80,
+        "supported_formats": [80,81],
+        "min_format": 80,
+        "max_format": 81
+    }
+}

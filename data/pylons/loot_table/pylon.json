@@ -1,0 +1,42 @@
+{
+    "pools": [{
+        "entries": [{
+            "type": "item",
+            "name": "minecraft:cow_spawn_egg",
+            "functions": [{
+                "function": "minecraft:set_components",
+                "components": {
+                    "item_name": {
+                        "translate": "item.pylons.pylon",
+                        "fallback": "传送晶塔",
+                        "color": "green"
+                    },
+                    "item_model": "pylons:vanilla/forest/item",
+                    "lore": [
+                        {"translate": "item.pylons.pylon.usage","fallback": "放置晶塔以创建传送锚点","italic": false,"color":"gray"},
+                        {"translate": "item.pylons.pylon.lore","fallback": "“散发着微弱的光芒...”","italic": false},
+                        {"text": "Pylons","color": "blue"}
+                    ],
+                    "entity_data": {
+                        "id": "minecraft:marker",
+                        "Tags": [
+                            "NatureCraft.data",
+                            "NatureCraft.init"
+                        ],
+                        "data": {
+                            "model": {
+                                "name": "pylons:vanilla",
+                                "nbt": "forest"
+                            }
+                        }
+                    },
+                    "custom_data": {
+                        "naturecraft":{},
+                        "loot_table": "pylons:pylon"
+                    }
+                }
+            }]
+        }],
+        "rolls": 1
+    }]
+}

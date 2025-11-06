@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": ["minecraft:amethyst_shard","minecraft:lapis_lazuli"],
+    "result": {
+        "id": "minecraft:recovery_compass",
+        "components": {
+            "item_name": {"translate": "item.pylons.low-grade_teleportation_stone","fallback": "低级传送石", "color": "#9e87f1"},
+            "item_model": "pylons:items/low-grade_teleportation_stone",
+            "lore": [
+                {"translate": "item.pylons.low-grade_teleportation_stone.usage1","fallback": "使用%s命名","with": [{"translate": "[%s]","with": [{"translate": "block.minecraft.anvil","color": "yellow"}],"color": "dark_gray"}],"italic": false,"color":"gray"},
+                {"translate": "item.pylons.low-grade_teleportation_stone.usage2","fallback": "用于标记晶塔","italic": false,"color":"gray"},
+                {"translate": "item.pylons.low-grade_teleportation_stone.lore","fallback": "“一块普通的石头.”","italic": false},
+                {"text": "Pylons","color": "blue"}
+            ],
+            "custom_data": {
+                "pylons":{
+                    "id": "low-grade_teleportation_stone"
+                }
+            }
+        },
+        "count": 1
+    }
+}

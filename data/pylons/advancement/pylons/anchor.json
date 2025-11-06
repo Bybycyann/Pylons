@@ -1,0 +1,15 @@
+{
+    "parent": "pylons:pylons/start",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "show_toast": true,
+        "title": {"translate": "advancements.pylons.anchor.title","fallback": "锚点！"},
+        "description": {"translate": "advancements.pylons.anchor.description","fallback": "使用传送石对一个晶塔进行标记"},
+        "icon": {"id": "minecraft:paper","components": {"item_model": "minecraft:respawn_anchor"}}
+    }
+}

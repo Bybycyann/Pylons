@@ -1,0 +1,18 @@
+{
+    "parent": "pylons:pylons/start",
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "pylons:pylon"
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "show_toast": false,
+        "title": {"translate": "advancements.pylons.crafting_pylon.title","fallback": "晶塔"},
+        "description": {"translate": "advancements.pylons.crafting_pylon.description","fallback": "合成一个晶塔"},
+        "icon": {"id": "minecraft:paper","components": {"item_model": "pylons:vanilla/forest/item"}}
+    }
+}

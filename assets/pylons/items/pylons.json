@@ -1,0 +1,10 @@
+{
+    "model": {
+        "type": "model",
+        "model": "pylons:pylons",
+        "tints": [{
+            "type": "minecraft:dye",
+            "default": 7789383
+        }]
+    }
+}

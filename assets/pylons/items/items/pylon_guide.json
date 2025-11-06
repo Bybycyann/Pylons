@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "model",
+        "model": "pylons:items/pylon_guide"
+    }
+}

@@ -1,0 +1,1 @@
+$data modify storage pylons:main players."$(UUID)" set value {star:[],other:[],all:[]}

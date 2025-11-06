@@ -1,0 +1,96 @@
+{
+  "parent": "pylons:recipes/root",
+  "criteria": {
+    "has_amethyst_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lapis_lazuli": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lodestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lodestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pylons:pylon"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_amethyst_shard",
+      "has_lodestone",
+      "has_lapis_lazuli"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "title": [
+        {"translate": "space.-131","font":"default"},
+        {"text": "\ue101","font": "pylons:gui/advancement","shadow_color": [0,0,0,0]},
+        {"translate": "space.-101","font":"default"},
+
+        {"translate": "space.5","font":"default"},
+        {"text": "\u2022","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-24","font":"default"},
+        {"translate": "space.5","font":"default"},
+        {"text": "\u2043","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-24","font":"default"},
+
+        {"translate": "space.23","font":"default"},
+        {"text": "\u2011","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-42","font":"default"},
+        {"translate": "space.23","font":"default"},
+        {"text": "\u2032","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-42","font":"default"},
+        {"translate": "space.23","font":"default"},
+        {"text": "\ue001","font": "pylons:block/lodestone","shadow_color": [0,0,0,0]},
+        {"translate": "space.-40","font":"default"},
+
+        {"translate": "space.41","font":"default"},
+        {"text": "\u2022","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-60","font":"default"},
+        {"translate": "space.41","font":"default"},
+        {"text": "\u2043","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-60","font":"default"},
+
+        {"translate": "space.77","font":"default"},
+        {"text": "\u1012","font": "pylons:item","shadow_color": [0,0,0,0]},
+        {"translate": "space.-96","font":"default"},
+
+        {"translate": "space.131","font":"default"},
+        {"translate": "advancements.pylons.crafting_pylon.title","fallback": "传送晶塔", "color": "green"}
+    ],
+    "description": {"translate": "advancement.pylons.guide.recipe.shaped","fallback": "有序配方"},
+    "icon": {"id": "minecraft:paper","components": {"item_model": "pylons:vanilla/forest/item"}}
+  },
+  "rewards": {
+    "recipes": [
+      "pylons:pylon"
+    ]
+  }
+}

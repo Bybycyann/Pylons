@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "pylons:data/template/pylons",
+        "pylons:data/model/vanilla/forest"
+    ]
+}

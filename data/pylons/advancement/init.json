@@ -1,0 +1,4 @@
+{
+    "criteria": {"0": {"trigger": "minecraft:tick"}},
+    "rewards": {"function": "pylons:player/init/0"}
+}

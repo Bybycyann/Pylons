@@ -1,0 +1,20 @@
+{
+    "pools": [{
+        "entries": [{
+            "type": "item",
+            "name": "minecraft:recovery_compass",
+            "functions": [{
+                "function": "minecraft:set_components",
+                "components": {
+                    "item_name": {
+                        "translate": "item.pylons.pylon_guide",
+                        "fallback": "晶塔手册",
+                        "color": "yellow"
+                    },
+                    "item_model": "pylons:items/pylon_guide"
+                }
+            }]
+        }],
+        "rolls": 1
+    }]
+}

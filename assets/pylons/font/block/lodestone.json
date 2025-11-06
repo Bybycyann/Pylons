@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "pylons:font/block/lodestone.png",
+            "height": 18,
+            "ascent": 10,
+            "chars": ["\ue100"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pylons:font/block/lodestone.png",
+            "height": 18,
+            "ascent": -8,
+            "chars": ["\ue010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pylons:font/block/lodestone.png",
+            "height": 18,
+            "ascent": -26,
+            "chars": ["\ue001"]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "show_toast": false,
+        "background": "minecraft:block/bookshelf",
+        "title": {"translate": "advancement.pylons.guide.root.title","fallback": "晶塔手册"},
+        "description": {"translate": "advancement.pylons.guide.root.description","fallback": "百科全书！"},
+        "icon": {"id": "minecraft:paper","components": {"item_model": "pylons:items/pylon_guide"}}
+    }
+}

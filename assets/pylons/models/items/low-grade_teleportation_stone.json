@@ -1,0 +1,10 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"particle": "pylons:item/items/low-grade_teleportation_stone",
+		"layer0": "pylons:item/items/low-grade_teleportation_stone"
+	},
+	"display": {}
+}

@@ -1,0 +1,50 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "key": {
+        "0": "minecraft:emerald",
+        "1": "minecraft:lapis_lazuli",
+        "2": "minecraft:ender_pearl",
+        "3": "minecraft:amethyst_shard",
+        "4": "minecraft:lodestone"
+    },
+    "pattern": [
+        " 0 ",
+        "121",
+        "343"
+    ],
+    "result": {
+        "id": "minecraft:cow_spawn_egg",
+        "components": {
+            "item_name": {
+                "translate": "item.pylons.pylon",
+                "fallback": "传送晶塔",
+                "color": "green"
+            },
+            "item_model": "pylons:vanilla/forest/item",
+            "lore": [
+                {"translate": "item.pylons.pylon.usage","fallback": "放置晶塔以创建传送锚点","italic": false,"color":"gray"},
+                {"translate": "item.pylons.pylon.lore","fallback": "“散发着微弱的光芒...”","italic": false},
+                {"text": "Pylons","color": "blue"}
+            ],
+            "entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "NatureCraft.data",
+                    "NatureCraft.init"
+                ],
+                "data": {
+                    "model": {
+                        "name": "pylons:vanilla",
+                        "nbt": "forest"
+                    }
+                }
+            },
+            "custom_data": {
+                "naturecraft":{},
+                "loot_table": "pylons:pylon"
+            }
+        },
+        "count": 1
+    }
+}
