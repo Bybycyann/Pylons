@@ -2,7 +2,7 @@
 # 数据包: Pylons-beta1.0
 # 适用版本: 1.21.6+
 # 前置依赖: NatureCraft
-# 类型: 冒险、实用
+# 类型: 冒险、实用、传送
 # 作者: 七柏(桂茗)
 # 许可证: MIT License
 # Bilibili: https://space.bilibili.com/405830542?spm_id_from=333.1007.0.0
@@ -12,8 +12,12 @@
 function #pylons:nc_reg
 
 # 游戏规则
-## 发送命令反馈	(调试时更改此项为 true)
-gamerule sendCommandFeedback false
+## 原生规则(命令反馈, 默认为true)
+function pylons:gamerule
+## 数据包内置规则
+scoreboard objectives add gamerule dummy
+    # 数据包加载信息(defult: true)
+    execute unless score #pylons_packinfo gamerule matches 0..1 run scoreboard players set #pylons_packinfo gamerule 1
 
 # 玩家进入游戏监听
     scoreboard objectives add Pylons.leave_game minecraft.custom:minecraft.leave_game

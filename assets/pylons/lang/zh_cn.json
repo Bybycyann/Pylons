@@ -2,6 +2,7 @@
     "peminder.pylons.pack_name": "传送晶塔",
     "peminder.pylons.pack_description": "便捷地穿梭于各个地标",
     "peminder.pylons.guide": "按%s打开成就界面获取帮助",
+    "peminder.pylons.disable": "[管理员]点击此处禁用加载信息.",
 
     "gui.pylons.search": "搜索",
     "advancement.pylons.guide.recipe.shapeless": "无序配方",
