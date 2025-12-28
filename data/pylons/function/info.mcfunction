@@ -1,4 +1,5 @@
 execute if score #pylons_packinfo gamerule matches 0 run return 0
+scoreboard players set #pylons_packinfo gamerule 0
 
 tellraw @s ""
 tellraw @s {translate:"peminder.naturecraft.enabled_datapack",fallback:"Successfully enabled the data packet %s",with:[{translate:"",fallback:"[%s]",color:"gray",hover_event:{action:"show_text",value:[{translate:"peminder.pylons.pack_name",fallback:"Pylons"},"\n",{translate:"peminder.pylons.pack_description",fallback:"Shipping all over the world",color:"green"}]},with:[{translate:"peminder.pylons.pack_name",fallback:"Pylons",color:"green"}]}]}
@@ -7,5 +8,4 @@ tellraw @s {translate:"peminder.naturecraft.license",fallback:"License: %s",with
 tellraw @s {translate:"peminder.naturecraft.link",fallback:"Related Links: %s %s",with:[{translate:"",fallback:"[%s]",color:"gray",click_event:{action:"open_url",url:"https://space.bilibili.com/405830542?spm_id_from=333.1007.0.0"},hover_event:{action:"show_text",value:[{translate:"options.chat.links",fallback:"Web Links"}]},with:[{"text":"Bilibili",color:"#cb63e5"}]},""]}
 tellraw @s {translate:"peminder.pylons.guide",fallback:"Press %s to open the achievements screen for help",with:[{translate:"",fallback:"[%s]",color:"gray",with:[{type:"keybind",keybind:"key.advancements",color:"yellow"}]}]}
 tellraw @s [{text:"⚠",color:yellow},{translate:"peminder.naturecraft.warning",fallback:"Some features need to be used in conjunction with resourcepacks",color:red,bold:true}]
-tellraw @s {translate:"peminder.pylons.disable",fallback:"[ADMIN] Click to disable loading info.",color:yellow,click_event:{action:"run_command",command:"/scoreboard players set #pylons_packinfo gamerule 0"}}
 tellraw @s ""
